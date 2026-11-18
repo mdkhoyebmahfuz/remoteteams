@@ -1,0 +1,87 @@
+/* ----all common css statr here--- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ol,ul{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 1.8;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+/* ----all common css end here--- */
+/* ----nav css start here--- */
+#navbar{
+    padding: 25px 0;
+    /* background-color: aqua; */
+}
+.nav_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_logo{
+    display: flex;
+    align-items: center;
+}
+.logo a img{
+    margin-top: 6px;
+}
+.logo{
+    margin-right: 40px;
+}
+.menu ul{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+
+}
+.menu ul li a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #CECFD2;
+}
+
+
+
+
+.user{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+   
+}
+.login a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #CECFD2;
+}
+.nav_button button{
+    padding: 10px 24px;
+     font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background: linear-gradient(90deg, #122837 0%, #4AF0FF 100%);
+}
+/* ----nav css end here--- */
